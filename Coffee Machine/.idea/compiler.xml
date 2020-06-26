@@ -22,16 +22,34 @@
       <module name="Problems-Hello!_test" target="11" />
       <module name="Problems-Hello,_Java_main" target="11" />
       <module name="Problems-Hello,_Java_test" target="11" />
+      <module name="Problems-Hiring_a_chef_main" target="11" />
+      <module name="Problems-Hiring_a_chef_test" target="11" />
       <module name="Problems-Initializing_an_array_of_integers_main" target="11" />
       <module name="Problems-Initializing_an_array_of_integers_test" target="11" />
       <module name="Problems-Initializing_an_array_of_longs_main" target="11" />
       <module name="Problems-Initializing_an_array_of_longs_test" target="11" />
+      <module name="Problems-Javadoc_comment_main" target="11" />
+      <module name="Problems-Javadoc_comment_test" target="11" />
+      <module name="Problems-Print_strings_in_the_reverse_order_main" target="11" />
+      <module name="Problems-Print_strings_in_the_reverse_order_test" target="11" />
       <module name="Problems-Printing_a_magic_letter_main" target="11" />
       <module name="Problems-Printing_a_magic_letter_test" target="11" />
+      <module name="Problems-Printing_each_word_in_a_new_line_main" target="11" />
+      <module name="Problems-Printing_each_word_in_a_new_line_test" target="11" />
+      <module name="Problems-Printing_only_the_longest_line_main" target="11" />
+      <module name="Problems-Printing_only_the_longest_line_test" target="11" />
+      <module name="Problems-Snail_main" target="11" />
+      <module name="Problems-Snail_test" target="11" />
+      <module name="Problems-Squirrels_and_nuts_main" target="11" />
+      <module name="Problems-Squirrels_and_nuts_test" target="11" />
       <module name="Problems-The_Hello_World_program_main" target="11" />
       <module name="Problems-The_Hello_World_program_test" target="11" />
       <module name="Problems-The_result_of_a_Tic-Tac-Toe_game_main" target="11" />
       <module name="Problems-The_result_of_a_Tic-Tac-Toe_game_test" target="11" />
+      <module name="Problems-The_sum_of_digits_main" target="11" />
+      <module name="Problems-The_sum_of_digits_test" target="11" />
+      <module name="Problems-Uncomment_a_line_main" target="11" />
+      <module name="Problems-Uncomment_a_line_test" target="11" />
       <module name="Problems-We_need_to_learn_Java_main" target="11" />
       <module name="Problems-We_need_to_learn_Java_test" target="11" />
       <module name="util_main" target="11" />

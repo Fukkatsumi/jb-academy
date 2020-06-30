@@ -33,3 +33,6 @@ content:
 - Replacing 'a' with 'b'
 - Check prefix ignoring the case
 - Comparing strings ignoring whitespaces
+- Check a number is positive
+- Triangle
+- Queens

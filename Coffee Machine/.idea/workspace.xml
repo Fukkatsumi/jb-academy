@@ -2,111 +2,136 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3d2f0d6-620b-4b13-8555-210e05e87d7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Even or odd/Problems-Even_or_odd.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Even or odd/Problems-Even_or_odd_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Even or odd/Problems-Even_or_odd_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Grades/Problems-Grades.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Grades/Problems-Grades_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Grades/Problems-Grades_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The (un)-ordered sequence/Problems-The__un_-ordered_sequence.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The (un)-ordered sequence/Problems-The__un_-ordered_sequence_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The (un)-ordered sequence/Problems-The__un_-ordered_sequence_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The largest element of a sequence/Problems-The_largest_element_of_a_sequence.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The largest element of a sequence/Problems-The_largest_element_of_a_sequence_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The largest element of a sequence/Problems-The_largest_element_of_a_sequence_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The product of numbers from a to b/Problems-The_product_of_numbers_from_a_to_b.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The product of numbers from a to b/Problems-The_product_of_numbers_from_a_to_b_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The product of numbers from a to b/Problems-The_product_of_numbers_from_a_to_b_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The sequence/Problems-The_sequence.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The sequence/Problems-The_sequence_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The sequence/Problems-The_sequence_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The smallest value/Problems-The_smallest_value.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The smallest value/Problems-The_smallest_value_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The smallest value/Problems-The_smallest_value_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The sum of elements/Problems-The_sum_of_elements.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The sum of elements/Problems-The_sum_of_elements_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The sum of elements/Problems-The_sum_of_elements_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The sum of integers from a to b/Problems-The_sum_of_integers_from_a_to_b.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The sum of integers from a to b/Problems-The_sum_of_integers_from_a_to_b_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The sum of integers from a to b/Problems-The_sum_of_integers_from_a_to_b_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Even or odd/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Even or odd/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Even or odd/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Even or odd/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Grades/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Grades/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Grades/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Grades/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The (un)-ordered sequence/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The (un)-ordered sequence/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The (un)-ordered sequence/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The (un)-ordered sequence/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The largest element of a sequence/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The largest element of a sequence/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The largest element of a sequence/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The largest element of a sequence/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The product of numbers from a to b/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The product of numbers from a to b/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The product of numbers from a to b/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The product of numbers from a to b/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The sequence/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The sequence/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The sequence/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The sequence/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The smallest value/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The smallest value/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The smallest value/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The smallest value/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The sum of elements/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The sum of elements/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The sum of elements/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The sum of elements/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The sum of integers from a to b/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The sum of integers from a to b/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The sum of integers from a to b/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/The sum of integers from a to b/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/A simple calculator/Problems-A_simple_calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/A simple calculator/Problems-A_simple_calculator_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/A simple calculator/Problems-A_simple_calculator_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Check if an array contains two numbers/Problems-Check_if_an_array_contains_two_numbers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Check if an array contains two numbers/Problems-Check_if_an_array_contains_two_numbers_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Check if an array contains two numbers/Problems-Check_if_an_array_contains_two_numbers_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Check sudoku/Problems-Check_sudoku.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Check sudoku/Problems-Check_sudoku_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Check sudoku/Problems-Check_sudoku_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Division/Problems-Division.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Division/Problems-Division_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Division/Problems-Division_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Does an array contain N/Problems-Does_an_array_contain_N.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Does an array contain N/Problems-Does_an_array_contain_N_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Does an array contain N/Problems-Does_an_array_contain_N_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Double characters/Problems-Double_characters.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Double characters/Problems-Double_characters_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Double characters/Problems-Double_characters_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Individual taxes/Problems-Individual_taxes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Individual taxes/Problems-Individual_taxes_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Individual taxes/Problems-Individual_taxes_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Move the first N characters/Problems-Move_the_first_N_characters.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Move the first N characters/Problems-Move_the_first_N_characters_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Move the first N characters/Problems-Move_the_first_N_characters_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Palindrome/Problems-Palindrome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Palindrome/Problems-Palindrome_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Palindrome/Problems-Palindrome_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Pretty looking pattern/Problems-Pretty_looking_pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Pretty looking pattern/Problems-Pretty_looking_pattern_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Pretty looking pattern/Problems-Pretty_looking_pattern_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Shape/Problems-Shape.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Shape/Problems-Shape_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Shape/Problems-Shape_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Sum of numbers in the range/Problems-Sum_of_numbers_in_the_range.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Sum of numbers in the range/Problems-Sum_of_numbers_in_the_range_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Sum of numbers in the range/Problems-Sum_of_numbers_in_the_range_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Swap the columns/Problems-Swap_the_columns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Swap the columns/Problems-Swap_the_columns_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Swap the columns/Problems-Swap_the_columns_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Test learners/Problems-Test_learners.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Test learners/Problems-Test_learners_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/Test learners/Problems-Test_learners_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The longest ascending sequence/Problems-The_longest_ascending_sequence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The longest ascending sequence/Problems-The_longest_ascending_sequence_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The longest ascending sequence/Problems-The_longest_ascending_sequence_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The sign of a number/Problems-The_sign_of_a_number.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The sign of a number/Problems-The_sign_of_a_number_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Problems/The sign of a number/Problems-The_sign_of_a_number_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/A simple calculator/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/A simple calculator/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/A simple calculator/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/A simple calculator/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Check if an array contains two numbers/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Check if an array contains two numbers/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Check if an array contains two numbers/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Check if an array contains two numbers/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Check sudoku/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Check sudoku/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Check sudoku/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Check sudoku/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Division/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Division/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Division/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Division/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Does an array contain N/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Does an array contain N/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Does an array contain N/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Does an array contain N/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Double characters/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Double characters/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Double characters/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Double characters/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Individual taxes/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Individual taxes/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Individual taxes/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Individual taxes/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Move the first N characters/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Move the first N characters/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Move the first N characters/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Move the first N characters/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Palindrome/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Palindrome/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Palindrome/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Palindrome/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Pretty looking pattern/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Pretty looking pattern/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Pretty looking pattern/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Pretty looking pattern/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Shape/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Shape/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Shape/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Shape/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Sum of numbers in the range/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Sum of numbers in the range/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Sum of numbers in the range/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Sum of numbers in the range/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Swap the columns/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Swap the columns/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Swap the columns/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Swap the columns/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Test learners/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Test learners/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Test learners/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Test learners/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/The longest ascending sequence/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/The longest ascending sequence/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/The longest ascending sequence/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/The longest ascending sequence/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/The sign of a number/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/The sign of a number/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/The sign of a number/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/The sign of a number/task.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coffee Machine/Action!/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/Action!/task-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coffee Machine/Action!/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/Action!/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coffee Machine/Brush up your code/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/Brush up your code/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee Machine/Enough coffee for everyone/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/Enough coffee for everyone/task-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coffee Machine/Enough coffee for everyone/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/Enough coffee for everyone/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coffee Machine/Hello, coffee!/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/Hello, coffee!/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coffee Machine/Machines have needs/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/Machines have needs/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coffee Machine/On a coffee loop/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/On a coffee loop/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee Machine/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/lesson-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee Machine/task/build/classes/java/main/machine/CoffeeMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/task/build/classes/java/main/machine/CoffeeMachine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee Machine/task/build/classes/java/test/CoffeeMachineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/task/build/classes/java/test/CoffeeMachineTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee Machine/task/build/reports/tests/test/classes/CoffeeMachineTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/task/build/reports/tests/test/classes/CoffeeMachineTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee Machine/task/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/task/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee Machine/task/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/task/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee Machine/task/build/test-results/test/TEST-CoffeeMachineTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/task/build/test-results/test/TEST-CoffeeMachineTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee Machine/task/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/task/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee Machine/task/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/task/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee Machine/task/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/task/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee Machine/task/out/production/classes/machine/CoffeeMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/task/out/production/classes/machine/CoffeeMachine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee Machine/task/src/machine/CoffeeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/task/src/machine/CoffeeMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee Machine/task/test/CoffeeMachineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/task/test/CoffeeMachineTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/Assignments (1)/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Assignments (1)/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/Assignments/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Assignments/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/Cats are robots/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Cats are robots/task-remote-info.yaml" afterDir="false" />
@@ -118,11 +143,14 @@
       <change beforePath="$PROJECT_DIR$/Problems/Decrement all/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Decrement all/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/Digits from 0 to 9 in a single line/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Digits from 0 to 9 in a single line/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/Distance/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Distance/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Even or odd/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Even or odd/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/Exactly one parameter is positive/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Exactly one parameter is positive/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/Fill the declaration/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Fill the declaration/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/Find X/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Find X/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/First, second, third/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/First, second, third/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/From 0 to 4/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/From 0 to 4/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Grades/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Grades/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Grades/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Grades/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/Hello!/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Hello!/task-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/Hello!/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Hello!/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/Hello, Java/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Hello, Java/task-remote-info.yaml" afterDir="false" />
@@ -139,14 +167,24 @@
       <change beforePath="$PROJECT_DIR$/Problems/Replacing 'a' with 'b'/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Replacing 'a' with 'b'/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/Snail/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Snail/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/Squirrels and nuts/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Squirrels and nuts/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The (un)-ordered sequence/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/The (un)-ordered sequence/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The (un)-ordered sequence/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/The (un)-ordered sequence/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The (un)-ordered sequence/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/The (un)-ordered sequence/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/The Hello World program/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/The Hello World program/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The largest element of a sequence/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/The largest element of a sequence/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The product of numbers from a to b/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/The product of numbers from a to b/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/The result of a Tic-Tac-Toe game/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/The result of a Tic-Tac-Toe game/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/The sum of digits/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/The sum of digits/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sequence/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/The sequence/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The smallest value/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/The smallest value/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/The sum of digits/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/The sum of digits/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sum of elements/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/The sum of elements/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/The sum of integers from a to b/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/The sum of integers from a to b/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Triangle/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Triangle/task-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/Triangle/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Triangle/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/Uncomment a line/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Uncomment a line/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/We need to learn Java/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/We need to learn Java/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Problems/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,49 +215,49 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="show.inlinked.gradle.project.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Problems-The_largest_element_of_a_sequence_main" />
+      <module name="Problems-Sum_of_numbers_in_the_range_main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Problems-The_sum_of_elements_main" />
+      <module name="Problems-Individual_taxes_main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Problems-Even_or_odd_main" />
+      <module name="Problems-Pretty_looking_pattern_main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Problems-The_sequence_main" />
+      <module name="Problems-The_sign_of_a_number_main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Problems-The_smallest_value_main" />
+      <module name="Problems-Division_main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +277,8 @@
       <workItem from="1593200089046" duration="5553000" />
       <workItem from="1593258648740" duration="10813000" />
       <workItem from="1593543769465" duration="7419000" />
-      <workItem from="1593705073115" duration="9017000" />
+      <workItem from="1593705073115" duration="26885000" />
+      <workItem from="1593887452432" duration="3672000" />
     </task>
     <servers />
   </component>
@@ -260,49 +299,49 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="599" y="227" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1593116161359" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1593712643212">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1593889713498">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1593712643212" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1593712643211">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1593889713498" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1593889713497">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1593712643211" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1593712643211">
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1593889713497" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1593889713496">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1593712643211" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1593712643212">
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1593889713496" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1593889713497">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1593712643212" />
-    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1593709209698">
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1593889713497" />
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1593888830295">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1593709209698" />
-    <state width="1877" height="363" key="GridCell.Tab.1.center" timestamp="1593709209698">
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1593888830295" />
+    <state width="1877" height="363" key="GridCell.Tab.1.center" timestamp="1593888830295">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1593709209698" />
-    <state width="1877" height="363" key="GridCell.Tab.1.left" timestamp="1593709209698">
+    <state width="1877" height="363" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1593888830295" />
+    <state width="1877" height="363" key="GridCell.Tab.1.left" timestamp="1593888830294">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1593709209698" />
-    <state width="1877" height="363" key="GridCell.Tab.1.right" timestamp="1593709209698">
+    <state width="1877" height="363" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1593888830294" />
+    <state width="1877" height="363" key="GridCell.Tab.1.right" timestamp="1593888830295">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1593709209698" />
+    <state width="1877" height="363" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1593888830295" />
     <state x="461" y="182" key="SettingsEditor" timestamp="1593543988791">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="182" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1593543988791" />
-    <state x="656" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1593705134425">
+    <state x="656" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1593887454937">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="656" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1593705134425" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1593273176522">
+    <state x="656" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1593887454937" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1593811675205">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1593273176522" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1593811675205" />
   </component>
 </project>

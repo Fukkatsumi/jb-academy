@@ -18,24 +18,28 @@ public class CoffeeMachine {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        displayMachineState();
-
-        System.out.println("\nWrite action (buy, fill, take):");
-        switch (scanner.next()) {
-            case "buy":
-                buyCoffee(scanner);
-                break;
-            case "fill":
-                fillMachine(scanner);
-                break;
-            case "take":
-                takeMoney();
-                break;
-            default:
-                break;
+        while (true) {
+            System.out.println("\nWrite action (buy, fill, take, remaining, exit):");
+            switch (scanner.next()) {
+                case "buy":
+                    buyCoffee(scanner);
+                    break;
+                case "fill":
+                    fillMachine(scanner);
+                    break;
+                case "take":
+                    takeMoney();
+                    break;
+                case "remaining":
+                    displayMachineState();
+                    break;
+                case "exit":
+                    System.exit(0);
+                    break;
+                default:
+                    break;
+            }
         }
-
-        displayMachineState();
     }
 
     private static void calculate(int cupsOfCoffee) {
@@ -72,7 +76,7 @@ public class CoffeeMachine {
                 + "%d of milk\n"
                 + "%d of coffee beans\n"
                 + "%d of disposable cups\n"
-                + "%d of money\n";
+                + "$%d of money\n";
         System.out.printf(machineState, water, milk, beans, cups, money);
     }
 
@@ -88,15 +92,15 @@ public class CoffeeMachine {
     }
 
     private static void buyCoffee(Scanner scanner) {
-        System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:");
-        switch (scanner.nextInt()) {
-            case 1:
+        System.out.println("\nWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:");
+        switch (scanner.next()) {
+            case "1":
                 makeCoffee(250, 0, 16, 4);
                 break;
-            case 2:
+            case "2":
                 makeCoffee(350, 75, 20, 7);
                 break;
-            case 3:
+            case "3":
                 makeCoffee(200, 100, 12, 6);
                 break;
             default:
@@ -105,15 +109,40 @@ public class CoffeeMachine {
     }
 
     private static void makeCoffee(int waterNeeds, int milkNeeds, int beansNeeds, int moneyNeeds) {
-        water -= waterNeeds;
-        milk -= milkNeeds;
-        beans -= beansNeeds;
+        if (water >= waterNeeds) {
+            water -= waterNeeds;
+        } else {
+            displayError("water");
+            return;
+        }
+        if (milk >= milkNeeds) {
+            milk -= milkNeeds;
+        } else {
+            displayError("milk");
+            return;
+        }
+        if (beans >= beansNeeds) {
+            beans -= beansNeeds;
+        } else {
+            displayError("coffee beans");
+            return;
+        }
+        if (cups >= 1) {
+            cups--;
+        } else {
+            displayError("disposable cups");
+            return;
+        }
+        System.out.println("I have enough resources, making you a coffee!");
         money += moneyNeeds;
-        cups--;
+    }
+
+    private static void displayError(String text) {
+        System.out.printf("Sorry, not enough %s!\n", text);
     }
 
     private static void takeMoney() {
-        System.out.println("I gave you " + money);
+        System.out.println("I gave you $" + money);
         money = 0;
     }
 }

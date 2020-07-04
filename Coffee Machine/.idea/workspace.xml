@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3d2f0d6-620b-4b13-8555-210e05e87d7d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee Machine/Action!/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/Action!/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee Machine/On a coffee loop/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/On a coffee loop/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee Machine/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/lesson-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coffee Machine/task/src/machine/CoffeeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/task/src/machine/CoffeeMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee Machine/task/test/CoffeeMachineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Machine/task/test/CoffeeMachineTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +115,7 @@
       <workItem from="1593258648740" duration="10813000" />
       <workItem from="1593543769465" duration="7419000" />
       <workItem from="1593705073115" duration="26885000" />
-      <workItem from="1593887452432" duration="6598000" />
+      <workItem from="1593887452432" duration="9928000" />
     </task>
     <servers />
   </component>
@@ -124,22 +136,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="599" y="227" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1593116161359" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1593898539055">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1593905245957">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1593898539055" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1593898539054">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1593905245957" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1593905245957">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1593898539054" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1593898539053">
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1593905245957" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1593905245957">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1593898539053" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1593898539054">
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1593905245957" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1593905245957">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1593898539054" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1593905245957" />
     <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1593888830295">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

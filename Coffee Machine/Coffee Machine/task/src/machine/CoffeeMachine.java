@@ -3,6 +3,13 @@ package machine;
 import java.util.Scanner;
 
 public class CoffeeMachine {
+    private static final String[] FILL_MESSAGE = new String[]{
+            "Write how many ml of water do you want to add:",
+            "Write how many ml of milk do you want to add:",
+            "Write how many grams of coffee beans do you want to add:",
+            "Write how many disposable cups of coffee do you want to add:"
+    };
+
     private static final int WATER_IN_MACHINE = 400;
     private static final int MILK_IN_MACHINE = 540;
     private static final int BEANS_IN_MACHINE = 120;
@@ -15,25 +22,33 @@ public class CoffeeMachine {
     private static int cups = DISPOSABLE_CUPS;
     private static int money = MONEY_IN_MACHINE;
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    private static State state = State.ACTION;
+    private static int fillIndex = 0;
+    private static Scanner scanner = new Scanner(System.in);
 
+    public static void main(String[] args) {
+        start();
+    }
+
+    private static void start() {
         while (true) {
-            System.out.println("\nWrite action (buy, fill, take, remaining, exit):");
-            switch (scanner.next()) {
-                case "buy":
-                    buyCoffee(scanner);
+            switch (state) {
+                case ACTION:
+                    selectAction();
                     break;
-                case "fill":
-                    fillMachine(scanner);
+                case BUYING:
+                    buyCoffee();
                     break;
-                case "take":
+                case FILLING:
+                    fillMachine();
+                    break;
+                case TAKING:
                     takeMoney();
                     break;
-                case "remaining":
+                case REMAINING:
                     displayMachineState();
                     break;
-                case "exit":
+                case EXIT:
                     System.exit(0);
                     break;
                 default:
@@ -42,32 +57,32 @@ public class CoffeeMachine {
         }
     }
 
-    private static void calculate(int cupsOfCoffee) {
-        water = WATER_IN_MACHINE * cupsOfCoffee;
-        milk = MILK_IN_MACHINE * cupsOfCoffee;
-        beans = BEANS_IN_MACHINE * cupsOfCoffee;
+    private static String read() {
+        return scanner.nextLine();
     }
 
-    private static int calculateCupsOfCoffeeWithSpecifiedAmount(int water, int milk, int beans) {
-        int minCups = 0;
-
-        if (water != 0 && milk != 0 && beans != 0) {
-            int waterCups = water / WATER_IN_MACHINE;
-            int milkCups = milk / MILK_IN_MACHINE;
-            int beansCups = beans / BEANS_IN_MACHINE;
-
-            minCups = waterCups;
-
-            if (milkCups < minCups) {
-                minCups = milkCups;
-            }
-
-            if (beansCups < minCups) {
-                minCups = beansCups;
-            }
+    public static void selectAction() {
+        System.out.println("\nWrite action (buy, fill, take, remaining, exit):");
+        String data = read();
+        switch (data) {
+            case "buy":
+                state = State.BUYING;
+                break;
+            case "fill":
+                state = State.FILLING;
+                break;
+            case "take":
+                state = State.TAKING;
+                break;
+            case "remaining":
+                state = State.REMAINING;
+                break;
+            case "exit":
+                state = State.EXIT;
+                break;
+            default:
+                break;
         }
-
-        return minCups;
     }
 
     private static void displayMachineState() {
@@ -78,22 +93,42 @@ public class CoffeeMachine {
                 + "%d of disposable cups\n"
                 + "$%d of money\n";
         System.out.printf(machineState, water, milk, beans, cups, money);
+        state = State.ACTION;
     }
 
-    private static void fillMachine(Scanner scanner) {
-        System.out.println("Write how many ml of water do you want to add:");
-        water += scanner.nextInt();
-        System.out.println("Write how many ml of milk do you want to add:");
-        milk += scanner.nextInt();
-        System.out.println("Write how many grams of coffee beans do you want to add:");
-        beans += scanner.nextInt();
-        System.out.println("Write how many disposable cups of coffee do you want to add:");
-        cups += scanner.nextInt();
+    private static void fillMachine() {
+        if (fillIndex >= 0 && fillIndex < 4) {
+            System.out.println(FILL_MESSAGE[fillIndex]);
+            String data = read();
+
+            switch (fillIndex) {
+                case 0:
+                    water += Integer.parseInt(data);
+                    break;
+                case 1:
+                    milk += Integer.parseInt(data);
+                    break;
+                case 2:
+                    beans += Integer.parseInt(data);
+                    break;
+                case 3:
+                    cups += Integer.parseInt(data);
+                    break;
+                default:
+
+                    break;
+            }
+        } else {
+            fillIndex = -1;
+            state = State.ACTION;
+        }
+        fillIndex++;
     }
 
-    private static void buyCoffee(Scanner scanner) {
+    private static void buyCoffee() {
         System.out.println("\nWhat do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:");
-        switch (scanner.next()) {
+        String data = read();
+        switch (data) {
             case "1":
                 makeCoffee(250, 0, 16, 4);
                 break;
@@ -106,6 +141,8 @@ public class CoffeeMachine {
             default:
                 break;
         }
+
+        state = State.ACTION;
     }
 
     private static void makeCoffee(int waterNeeds, int milkNeeds, int beansNeeds, int moneyNeeds) {
@@ -144,5 +181,6 @@ public class CoffeeMachine {
     private static void takeMoney() {
         System.out.println("I gave you $" + money);
         money = 0;
+        state = State.ACTION;
     }
 }

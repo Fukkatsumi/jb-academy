@@ -62,6 +62,10 @@
       <module name="Problems-Find_X_test" target="11" />
       <module name="Problems-First,_second,_third_main" target="11" />
       <module name="Problems-First,_second,_third_test" target="11" />
+      <module name="Problems-Fix_compile-time_errors_main" target="11" />
+      <module name="Problems-Fix_compile-time_errors_test" target="11" />
+      <module name="Problems-Fix_the_program_main" target="11" />
+      <module name="Problems-Fix_the_program_test" target="11" />
       <module name="Problems-From_0_to_4_main" target="11" />
       <module name="Problems-From_0_to_4_test" target="11" />
       <module name="Problems-Geometric_cube_main" target="11" />
@@ -156,6 +160,8 @@
       <module name="Problems-User_test" target="11" />
       <module name="Problems-We_need_to_learn_Java_main" target="11" />
       <module name="Problems-We_need_to_learn_Java_test" target="11" />
+      <module name="Problems-What's_wrong_main" target="11" />
+      <module name="Problems-What's_wrong_test" target="11" />
       <module name="util_main" target="11" />
       <module name="util_test" target="11" />
     </bytecodeTargetLevel>

@@ -41,6 +41,8 @@
             <option value="$PROJECT_DIR$/Problems/Fill the declaration" />
             <option value="$PROJECT_DIR$/Problems/Find X" />
             <option value="$PROJECT_DIR$/Problems/First, second, third" />
+            <option value="$PROJECT_DIR$/Problems/Fix compile-time errors" />
+            <option value="$PROJECT_DIR$/Problems/Fix the program" />
             <option value="$PROJECT_DIR$/Problems/From 0 to 4" />
             <option value="$PROJECT_DIR$/Problems/Geometric cube" />
             <option value="$PROJECT_DIR$/Problems/Grades" />
@@ -88,6 +90,7 @@
             <option value="$PROJECT_DIR$/Problems/Uncomment a line" />
             <option value="$PROJECT_DIR$/Problems/User" />
             <option value="$PROJECT_DIR$/Problems/We need to learn Java" />
+            <option value="$PROJECT_DIR$/Problems/What's wrong" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
